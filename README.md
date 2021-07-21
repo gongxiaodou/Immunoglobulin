@@ -11,7 +11,7 @@ When -kgap=3, feature structure will be X_XXX, X_ _XXX, and X_ _ _XXX.
 X={A,C,D,E,F,G,H,I,K,L,M,N,P,Q,R,S,T,V,W,Y}.In this study, k=1.   
 ## Command for generate dataset only monoTriKGap method:   
 ### Run command
-  Python main.py  -fa=/home/gongxiaodou/Datasets/Protein/7.fasta  -la=/home/gongxiaodou/Datasets/Protein/Lable.txt  -full=1  -optimum=1 -f13=1 -kgap=1   
+  Python main.py  -fa=/home/gongxiaodou/Datasets/Protein/7.fasta  -la=/home/gongxiaodou/Datasets/Protein/label.txt  -full=1  -optimum=1 -f13=1 -kgap=1   
 ### Parameter description   
 Full = 1 where the parameters that do not want to save the complete set of data, optimum = 1 that do not want to save the best data set and the generated pseudo = 1 represents a feature.
 # CC-PSSM
